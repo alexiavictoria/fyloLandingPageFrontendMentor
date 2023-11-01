@@ -40,3 +40,22 @@ header {
 .topNav a:hover {
     color:hsl(238, 22%, 44%);
 }
+
+/* --- HERO PAGE --- */
+.heroPage {
+    display: flex;
+    align-items: center
+}
+
+.heroPageLeft {
+    display: ;
+    max-width: 50%;
+}
+
+.heroPageRight {
+    max-width: 50%;
+}
+.heroImg {
+    height: 50vh;
+    max-width:;
+}
