@@ -6,8 +6,37 @@ html { box-sizing: border-box;}
 
 .sr-only { position: absolute; width: 1px; height: 1px; margin: -1px; border: 0; padding: 0; white-space: nowrap; clip-path: inset(100%); clip: rect(0 0 0 0); overflow: hidden;}
 
-/* --- START --- */
+/* --- GENERAL --- */
 
 body {
-    color: green;
+    margin: 50px 75px 15px 75px;
+}
+/* lists */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* --- TOP NAVIGATION BAR --- */
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.topNav {
+    display: flex;
+    flex-direction: row;
+}
+
+.topNav a {
+    text-decoration: none;
+    color: black;
+    padding: 0 0 0 45px;
+    font-family: Raleway;
+}
+
+.topNav a:hover {
+    color:hsl(238, 22%, 44%);
 }
