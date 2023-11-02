@@ -8,9 +8,16 @@ html { box-sizing: border-box;}
 
 /* --- GENERAL --- */
 
-body {
-    margin: 50px 75px 15px 75px;
+.wrapper {
+    max-width: 87%;
+    width: 100%;
+    margin: 0 auto;
 }
+
+body {
+    padding: 50px 0 0 0;
+}
+
 /* lists */
 ul {
     list-style-type: none;
@@ -89,4 +96,14 @@ h1 {
 .heroImg {
     height: 50vh;
     max-width:;
+}
+
+/* --- INFORMATION PAGE --- */
+.bigCurve {
+    object-fit: contain;
+
+}
+
+.infoPage {
+    background-color: hsl(240, 75%, 98%);
 }
