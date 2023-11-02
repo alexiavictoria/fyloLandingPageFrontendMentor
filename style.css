@@ -51,11 +51,11 @@ header {
 /* --- HERO PAGE --- */
 .heroPage {
     display: flex;
-    align-items: center
+    align-items: center;
+    height: 75vh;    
 }
 
 .heroPageLeft {
-    display: ;
     max-width: 50%;
 }
 
@@ -95,15 +95,25 @@ h1 {
 }
 .heroImg {
     height: 50vh;
-    max-width:;
 }
 
 /* --- INFORMATION PAGE --- */
 .bigCurve {
-    object-fit: contain;
+    width: 100%;
 
 }
 
 .infoPage {
     background-color: hsl(240, 75%, 98%);
+    display: flex;
+    align-items: center;
+    height: 80vh;
+}
+
+h2 {
+    margin: 0px;
+}
+
+.infoImg {
+    height: 50vh;
 }
